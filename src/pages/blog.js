@@ -19,7 +19,6 @@ const blog = ({ data }) => (
         <br />
         <hr />
       </div>
-
     ))}
   </Layout>
 )
