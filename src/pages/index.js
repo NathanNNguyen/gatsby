@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div className='flex justify-center bg-black pt-24 pb-24'>
       <img src={Logo} alt='logo' className='w-20 mr-3' />
       <h1 className='text-2xl text-gray-200 tracking-wider font-serif'>
-        Let's eat!
+        Let's eat.
       <br />
         But,
       <br />
