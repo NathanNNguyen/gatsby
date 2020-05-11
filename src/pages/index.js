@@ -1,13 +1,16 @@
 import React from "react"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
+import Logo from '../images/restaurant.png';
+
+import '../styles/app.css'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Welcome to my gatsby site</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi assumenda at, labore minima voluptatibus corporis aut odit adipisci rerum, eum veniam. Nesciunt, tempora perferendis? Qui eaque accusantium architecto amet ullam.</p>
+    <div className='flex bg-black pt-32 pb-32'>
+      <img src={Logo} alt='logo' className='w-6 h-10' />
+      <h1 className='text-2xl text-gray-400'>Welcome to the healthy life style!</h1>
+    </div>
   </Layout>
 )
 
