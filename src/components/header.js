@@ -2,51 +2,31 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import '../styles/app.css'
+import Github from '../images/github.png'
+import Twitter from '../images/twitter.png'
+import Facebook from '../images/facebook.png'
+import Instagram from '../images/instagram.png'
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `linear-gradient(to right, rebeccapurple, #81e6d9)`,
-      marginBottom: `0`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{
-        margin: 0,
-        display: 'flex',
-        justifyContent: 'space-between'
-      }}>
-        <Link
-          to="/"
-          style={{
-            textDecoration: `none`,
-          }}
-        >
-          <span className='text-2xl text-white'>Home</span>
+  <header className='m-0 bg-black'>
+    <div className='flex justify-between m-0 ml-auto mr-auto max-w-screen-lg pt-6 pb-6 pr-4 pl-4'>
+      <div className='flex justify-between w-1/3'>
+        <Link className='no-underline' to="/">
+          <span className='text-xl text-gray-400'>Home</span>
         </Link>
-        <Link
-          to="/about"
-          style={{
-            textDecoration: `none`,
-          }}
-        >
-          <span className='text-2xl text-white'>About</span>
+        <Link className='no-underline' to="/about">
+          <span className='text-xl text-gray-400'>About</span>
         </Link>
-        <Link
-          to="/blog"
-          style={{
-            textDecoration: `none`,
-          }}
-        >
-          <span className='text-2xl text-white'>Blog</span>
+        <Link className='no-underline' to="/blog">
+          <span className='text-xl text-gray-400'>Blog</span>
         </Link>
-      </h1>
+      </div>
+      <div className='flex justify-between w-1/3'>
+        <img src={Facebook} alt='facebook' className='w-6' />
+        <img src={Twitter} alt='twitter' className='w-6' />
+        <img src={Instagram} alt='instagram' className='w-6' />
+        <img src={Github} alt='git' className='w-6' />
+      </div>
     </div>
   </header>
 )

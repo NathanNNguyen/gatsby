@@ -27,18 +27,18 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `1.45rem 1.0875rem`,
-        }}
+      <div className='m-0 h-full'
+      // style={{
+      //   // margin: `0 auto`,
+      //   // maxWidth: 960,
+      //   padding: `1.45rem 1.0875rem`,
+      // }}
       >
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with Gatsby & Tailwind-css
           {` `}
-        </footer>
+        </footer> */}
       </div>
     </>
   )
