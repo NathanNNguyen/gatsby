@@ -12,13 +12,13 @@ const Header = ({ siteTitle }) => (
     <div className='flex justify-between m-0 ml-auto mr-auto max-w-screen-lg pt-6 pb-6 pr-4 pl-4'>
       <div className='flex justify-between w-1/3'>
         <Link className='no-underline' to="/">
-          <span className='text-xl text-gray-400'>Home</span>
+          <span className='text-xl text-gray-200'>Home</span>
         </Link>
         <Link className='no-underline' to="/about">
-          <span className='text-xl text-gray-400'>About</span>
+          <span className='text-xl text-gray-200'>About</span>
         </Link>
         <Link className='no-underline' to="/blog">
-          <span className='text-xl text-gray-400'>Blog</span>
+          <span className='text-xl text-gray-200'>Blog</span>
         </Link>
       </div>
       <div className='flex justify-between w-1/3'>
