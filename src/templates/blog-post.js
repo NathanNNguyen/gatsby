@@ -11,7 +11,7 @@ export default function Template({ data }) {
     <Layout>
       <div className='bg-gray-700 flex flex-col justify-center items-center p-12'>
         <h1 className='text-blue-400 text-3xl'>{post.frontmatter.title}</h1>
-        <img className='w-1/6 m-10' src={post.frontmatter.img} />
+        <img className='w-1/6 m-10' src={post.frontmatter.img} alt='food-img' />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className='flex justify-center items-center'>
           <p className='w-2/4 m-20 leading-10 tracking-wider'>
