@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div className='flex justify-center bg-black pt-24 pb-24'>
       <img src={Logo} alt='logo' className='w-20 mr-3' />
       <h1 className='text-2xl text-gray-200 tracking-wider font-serif'>
-        Let's eat!
+        Let's eat.
       <br />
         But,
       <br />
@@ -26,11 +26,8 @@ const IndexPage = () => (
         <h2 className='text-4xl mb-3'>Welcome to Duyen Mai!</h2>
         <p className='mb-3 text-xl text-gray-400'>We are a restaurant that provides the best culinary experience drawn from pre-Viet cuisine of San Diego.</p>
         <p className='mb-3 text-xl text-gray-400'>Our dishes empasize the seasonality of local produce and we create a sustainable chain that allows us to bring new culinary experiences to our national and international clientes while combining cultures.</p>
-        <p className='mb-3 text-xl text-gray-400'>Our goal is to take you on a journey around the flavors of Viet food, its unique ingredients, recipes and culinary techniques.</p>
-        <br />
-        <br />
-        <br />
-        <Link className='text-gray-300' to='/about'>Learn more</Link>
+        <p className='mb-3 text-xl text-gray-400 mb-10'>Our goal is to take you on a journey around the flavors of Viet food, its unique ingredients, recipes and culinary techniques.</p>
+        <Link className='text-gray-300' to='/recipes'>Learn more</Link>
       </div>
     </div>
   </Layout>
