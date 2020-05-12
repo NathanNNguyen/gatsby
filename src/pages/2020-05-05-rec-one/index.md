@@ -3,25 +3,7 @@ path: '/rec-1'
 date: '2020-05-05'
 title: 'Vietnamese Braised Fish'
 author: 'Nathan Nguyen'
-ingredients: '
-1 lb catfish filets bone and skin optional,
-salt to clean the fish.
-Aromatics: 
-2 tbsp oil,
-5 cloves garlic minced,
-1/2 yellow onion sliced,
-Seasoning & cooking liquid,
-1 tsp salt,
-1.5 tbsp fish sauce,
-About 1/2 teaspoon thick soy sauce,
-1/2 c water,
-1/2 c coconut juice or replace water & coconut juice with 1 cup coconut soda,
-1 chile sliced (to taste, optional),
-freshly ground black pepper or add as a final topping when serving.
-Garnish:
-1 green onion roughly chopped,
-black pepper freshly ground,
-1 red chile sliced, optional.'
+img: 'https://i.pinimg.com/originals/f6/fb/96/f6fb96d81bd731d53ae89feec107cc97.jpg'
 ---
 
 Instructions:

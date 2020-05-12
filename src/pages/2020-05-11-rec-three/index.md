@@ -3,31 +3,7 @@ path: '/rec-4'
 date: '2020-05-11'
 title: 'Vermicelli Combination'
 author: 'Nathan Nguyen'
-ingredients: '
-1.5 lb pork shoulder sliced (any cut will do),
-1 package rice noodles small or medium thickness,
-4-6 egg rolls.
-Marinade:
-3 tbsp shallots minced,
-1.5 tbsp garlic minced,
-1/4 cup sugar,
-1 tbsp fish sauce,
-1/2 tbsp thick soy sauce,
-1/2 tbsp pepper,
-3 tbsp neutral cooking oil,
-Vegetables:
-green leaf lettuce,
-mint – rau thơm,
-Vietnamese perilla – tiá tô,
-Vietnamese balm – kinh giới,
-cucumbers sliced,
-Garnish:
-pickled daikon and carrots (đồ chua),
-1/2 tbsp scallion in oil (mở hành),
-1/2 tbsp crushed peanuts,
-Dipping Sauce:
-prepared fish sauce / nước chấm.
-'
+img: 'https://www.hungryhuy.com/wp-content/uploads/bun-thit-nuong-header.jpg'
 ---
 
 Instruction:

@@ -3,30 +3,7 @@ path: '/recipe-4'
 date: '2020-05-05'
 title: 'Chicken "Pho" '
 author: 'Nathan Nguyen'
-ingredients: '
-2 medium white or yellow onions roasted,
-20 g fresh ginger roasted.
-Spices:
-2 tbsp coriander seeds,
-1 cinnamon stick approximately 2 inches,
-2 star anise pods.
-Soup:
-1 whole chicken cut in half,
-16 c water,
-2½ tbsp salt,
-2 tbsp sugar,
-2 tsp MSG or 2 tbsp vegetarian seasoning.
-Noodles:
-16 oz (1 pack) dried phở noodles small noodle thickness,
-Accoutrements:
-bean sprouts I prefer blanched,
-Thai basil,
-lemon sliced into wedges,
-ngo gai (culantro),
-sliced jalapenos,
-hoisin sauce,
-Sriracha.
-'
+img: 'https://www.hungryhuy.com/wp-content/uploads/pho-ga-recipe-340x227@2x.jpg'
 ---
 
 Instructions:
