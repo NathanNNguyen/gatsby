@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 import '../styles/app.css'
 
-const blog = ({ data }) => (
+const recipes = ({ data }) => (
   <Layout>
     <div className='flex justify-around flex-wrap bg-gray-700'>
       {data.allMarkdownRemark.edges.map(post => (
@@ -38,4 +38,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default blog
+export default recipes
